@@ -1,3 +1,7 @@
+export function asset(path) {
+  return `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
+}
+
 export const navItems = [
   { to: "/", label: "Inicio", end: true },
   { to: "/estudios", label: "Estudios" },
@@ -100,19 +104,19 @@ export const softSkills = [
 ];
 
 export const cv = {
-  href: "/Curriculum-Yair-Leon.pdf",
+  href: asset("Curriculum-Yair-Leon.pdf"),
   fileName: "Curriculum-Yair-Leon.pdf",
 };
 
 export const certificates = [
-  { src: "/imagenes/Certificados/Big.jpeg", alt: "Certificado Big" },
-  { src: "/imagenes/Certificados/python.jpg", alt: "Certificado de Python" },
+  { src: asset("imagenes/Certificados/Big.jpeg"), alt: "Certificado Big" },
+  { src: asset("imagenes/Certificados/python.jpg"), alt: "Certificado de Python" },
   {
-    src: "/imagenes/Certificados/data-analyst.jpg",
+    src: asset("imagenes/Certificados/data-analyst.jpg"),
     alt: "Certificado The Data Analyst Course: Complete Data Analyst Bootcamp",
   },
-  { src: "/imagenes/Certificados/ingles.jpg", alt: "Certificado de inglés" },
-  { src: "/imagenes/Certificados/b1.jpg", alt: "Certificado de inglés B1" },
+  { src: asset("imagenes/Certificados/ingles.jpg"), alt: "Certificado de inglés" },
+  { src: asset("imagenes/Certificados/b1.jpg"), alt: "Certificado de inglés B1" },
 ];
 
 export const productWork = [

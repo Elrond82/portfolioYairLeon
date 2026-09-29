@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import { cv } from "../data";
+import { asset, cv } from "../data";
 
 export default function Home() {
   return (
     <>
-      <img className="logo" src="/imagenes/logo.png" alt="Bienvenido a mi portfolio" />
+      <img className="logo" src={asset("imagenes/logo.png")} alt="Bienvenido a mi portfolio" />
 
       <section className="hero">
-        <img className="portrait" src="/imagenes/perfil.jpg" alt="Yair Rodrigo León" />
+        <img className="portrait" src={asset("imagenes/perfil.jpg")} alt="Yair Rodrigo León" />
         <div className="hero-copy">
           <p className="eyebrow">Desarrollador de software</p>
           <h1>Yair Rodrigo León</h1>

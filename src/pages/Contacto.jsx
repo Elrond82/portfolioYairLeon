@@ -1,14 +1,14 @@
-import { cv, socials } from "../data";
+import { asset, cv, socials } from "../data";
 
 const profiles = [
   {
     ...socials[0],
-    image: "/imagenes/lin.png",
+    image: asset("imagenes/lin.png"),
     text: "Perfil de LinkedIn",
   },
   {
     ...socials[1],
-    image: "/imagenes/git.png",
+    image: asset("imagenes/git.png"),
     text: "Perfil de GitHub",
   },
 ];

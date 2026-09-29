@@ -51,7 +51,7 @@ a {
 }
 
 .shell::before {
-  background-image: url("/imagenes/fondo.png");
+  background-image: var(--fondo);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
