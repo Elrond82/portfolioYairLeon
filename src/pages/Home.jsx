@@ -20,8 +20,9 @@ export default function Home() {
           </p>
           <p>
             El recorrido mezcla enseñanza musical, diseño y desarrollo. Hoy también trabajo en
-            producto en Técnico Cerca: pedidos, órdenes de reparación e integraciones. En este
-            portfolio están los proyectos de formación y ese trabajo más reciente.
+            producto en Técnico Cerca: pedidos, órdenes de reparación e integraciones con
+            GoHighLevel (workflows, mail, WhatsApp y APIs). En este portfolio están los proyectos
+            de formación y ese trabajo más reciente.
           </p>
           <div className="hero-actions">
             <Link className="button" to="/proyectos">

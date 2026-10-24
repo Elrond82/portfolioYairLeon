@@ -70,12 +70,20 @@ export const skillGroups = [
       "Docker",
       "Jira",
       "Postman",
-      "GoHighLevel",
-      "APIs REST",
-      "Webhooks",
       "Word",
       "Excel",
       "PowerPoint",
+    ],
+  },
+  {
+    title: "Automatización",
+    items: [
+      "GoHighLevel",
+      "Workflows",
+      "Mail",
+      "WhatsApp",
+      "Webhooks",
+      "APIs REST",
     ],
   },
   {
@@ -99,7 +107,8 @@ export const softSkills = [
   },
   {
     title: "Comunicación entre sistemas",
-    detail: "Coordinar API, taller y GoHighLevel para que el contacto y la orden lleguen al mismo lugar.",
+    detail:
+      "Integrar API, taller y GoHighLevel: workflows, mail, WhatsApp y el alta de contactos en el mismo flujo.",
   },
   {
     title: "Organización por etapas",
@@ -150,8 +159,8 @@ export const productWork = [
     title: "API de reparaciones",
     role: "Integración con GoHighLevel",
     summary:
-      "API en Node que recibe nombre, teléfono y número de orden, y crea o actualiza el contacto en GoHighLevel. También hubo cambios de onboarding en ese repositorio, entregados por pull request.",
-    stack: ["Node.js", "GoHighLevel", "Webhooks", "API REST"],
+      "API en Node que recibe nombre, teléfono y número de orden, y crea o actualiza el contacto en GoHighLevel. Armé workflows de automatización sobre esa integración: mail, WhatsApp y el alta del contacto en el flujo que corresponde. El onboarding de esa API se entregó por pull request.",
+    stack: ["Node.js", "GoHighLevel", "Workflows", "Mail", "WhatsApp", "Webhooks"],
   },
   {
     title: "Orden de reparación",
