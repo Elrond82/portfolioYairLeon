@@ -15,7 +15,8 @@ export default function Home() {
             Profesional argentino con más de 8 años de experiencia en docencia y una base sólida en
             organización, liderazgo y resolución de problemas. Estoy en formación como Técnico
             Desarrollador de Software en el Centro Universitario de Ituzaingó, y me interesa aplicar
-            C, SQL, Java, Python, React, Node.js y HTML para armar soluciones claras y usables.
+            C, SQL, Java, Python, TypeScript, React, Node.js, HTML y Arduino para armar
+            soluciones claras y usables.
           </p>
           <p>
             El recorrido mezcla enseñanza musical, diseño y desarrollo. Hoy también trabajo en

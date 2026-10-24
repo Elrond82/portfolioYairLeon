@@ -30,6 +30,11 @@ export const studies = [
     period: "2024 — actualidad",
   },
   {
+    title: "Taller virtual de Arduino",
+    institution: "Centro Regional Universitario de Ituzaingó",
+    period: "Mayo 2026",
+  },
+  {
     title: "Profesor de Música",
     institution: "Conservatorio Alberto Ginastera",
   },
@@ -52,8 +57,10 @@ export const skillGroups = [
       "C",
       "SQL",
       "NoSQL",
+      "TypeScript",
       "React Native",
       "HTML y CSS",
+      "Arduino",
     ],
   },
   {
@@ -62,6 +69,7 @@ export const skillGroups = [
       "Git",
       "Docker",
       "Jira",
+      "Postman",
       "GoHighLevel",
       "APIs REST",
       "Webhooks",
@@ -114,6 +122,10 @@ export const certificates = [
   {
     src: asset("imagenes/Certificados/data-analyst.jpg"),
     alt: "Certificado The Data Analyst Course: Complete Data Analyst Bootcamp",
+  },
+  {
+    src: asset("imagenes/Certificados/arduino.png"),
+    alt: "Certificado Taller virtual de Arduino — Centro Regional Universitario de Ituzaingó",
   },
   { src: asset("imagenes/Certificados/ingles.jpg"), alt: "Certificado de inglés" },
   { src: asset("imagenes/Certificados/b1.jpg"), alt: "Certificado de inglés B1" },
